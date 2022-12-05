@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="header">
+        <img src="/images/logo.svg" class="logo" />
+        <div class="score">
+          <span class="head">Score</span>
+          <span id="point">0</span>
+        </div>
+      </div>
+    <div id="container">
+        <img src="/images/icon-rock.svg" id="rock" onclick="start(this)">
+        <img src="/images/icon-paper.svg" id="paper" onclick="start(this)">
+        <img src="/images/icon-scissors.svg" id="scissors" onclick="start(this)">
+    </div>
+    <a href="index.html"><button class="btn">Play Again</button></a>
+    <script src="/main.js"></script>
+</body>
+</html>
